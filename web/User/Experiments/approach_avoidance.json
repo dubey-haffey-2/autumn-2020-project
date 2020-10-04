@@ -7,7 +7,7 @@
         "max time",
         "text",
         "Shuffle 1",
-        null
+        ""
       ],
       [
         "0",
@@ -15,7 +15,7 @@
         "user",
         "In the following trials you will need to click a button to show an image",
         "off",
-        null
+        ""
       ],
       [
         "2 to 3",
@@ -23,7 +23,7 @@
         "user",
         "This is the start of a new experiment.",
         "off",
-        null
+        ""
       ],
       [
         "0",
@@ -31,23 +31,23 @@
         "user",
         "In the following trials you will need to click the button to hide the image",
         "off",
-        null
+        ""
       ],
       [
         "4 to 6",
         "avoidance",
         "user",
-        null,
+        "",
         "off",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -64,7 +64,7 @@
       "start_message",
       "buffer",
       "scripts",
-      null
+      ""
     ],
     [
       "condition_1",
@@ -78,21 +78,21 @@
       "",
       "5",
       "",
-      null
+      ""
     ],
     [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
   ],
   "all_stims": {
@@ -101,43 +101,43 @@
         "cue",
         "answer",
         "image",
-        null
+        ""
       ],
       [
         "A",
         "Apple",
         "../User/Stimuli/cam/blue.jpg",
-        null
+        ""
       ],
       [
         "B",
         "Banana",
         "../User/Stimuli/cam/green.jpg",
-        null
+        ""
       ],
       [
-        null,
-        null,
+        "",
+        "",
         "../User/Stimuli/cam/maroon.jpg",
-        null
+        ""
       ],
       [
-        null,
-        null,
+        "",
+        "",
         "../User/Stimuli/cam/orange.jpg",
-        null
+        ""
       ],
       [
-        null,
-        null,
+        "",
+        "",
         "../User/Stimuli/cam/pink.jpg",
-        null
+        ""
       ],
       [
-        null,
-        null,
-        null,
-        null
+        "",
+        "",
+        "",
+        ""
       ]
     ]
   },
@@ -206,5 +206,9 @@
       "scripts": "",
       "": ""
     }
-  ]
+  ],
+  "location": "dubey-haffey-2/autumn-2020-project",
+  "storage_scripts": {
+    "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+  }
 }
