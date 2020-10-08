@@ -1289,10 +1289,6 @@ function shuffle_start_exp(){
 		}
 	});
 
-	// start at highest shuffle number, and then shuffle on my way down to 2
-	//  RESUME HERE
-
-
 	shuffle_array = {};
 	exp_json.parsed_proc.forEach(function(row,index){
 			var this_shuffle = row["shuffle 1"];
@@ -1468,12 +1464,10 @@ function write_trial_iframe(index){
   }
 	doc.close();
 
-	//CODE HERE TO DEAL WITH POST TRIAL TYPES
-  for(var i = 0; i < trial_events.length; i++){
+	for(var i = 0; i < trial_events.length; i++){
 
 		var trial_content = Study.generate_trial(index,i); //exp_json.trial_no
-
-    trial_content += "<button style='opacity:0; filter: alpha(opacity=0)' id='zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'></button>";
+        trial_content += "<button style='opacity:0; filter: alpha(opacity=0)' id='zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'></button>";
 
 		doc = document.getElementById('trial'+index).contentWindow.document.getElementById('post'+i).contentWindow;
 		doc.document.open();

@@ -3,7 +3,17 @@
 */
 
 $("img").on("load", function() {
-  // nothing to do, it all worked well  
+  // nothing to do, it all worked well
+})
+.on("error", function() {
+  d = new Date();
+  $("#" + $(this)[0].id).attr("src",                     // replace this
+               $(this).attr("src") + "?" + d.getTime()); // with this
+});
+
+
+$("video").on("load", function() {
+  // nothing to do, it all worked well
 })
 .on("error", function() {
   d = new Date();
