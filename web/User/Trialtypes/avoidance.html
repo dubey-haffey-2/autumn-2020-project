@@ -40,6 +40,21 @@ Trial.set_timer(function(){
   },800);
 },1000)
 
+
+$("#hide_image_btn").on("click",function(){
+  $("#trial_image").hide();
+  if(typeof(hide_timer) == "undefined"){
+    hide_timer = new Trial.timer(function(){
+      $("#trial_image").show();
+      delete(hide_timer);
+    },{{hide_show_duration}});
+  } else {
+    hide_timer.add({{hide_show_duration}});
+  }
+});
+  
+
+/*
 function bind_hide_button(){
   $("#hide_image_btn").on("click",function(){
     $("#trial_image").hide();
@@ -55,7 +70,7 @@ function bind_hide_button(){
   });
 }
 bind_hide_button();
-
+*/
   
   
 </script>

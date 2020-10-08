@@ -39,8 +39,22 @@ Trial.set_timer(function(){
       Trial.submit();
     },5200);
   },800);
-},1000)
+},1000);
 
+$("#show_image_btn").on("click",function(){
+  $("#trial_image").show();
+  if(typeof(hide_timer) == "undefined"){
+    hide_timer = new Trial.timer(function(){
+      $("#trial_image").hide();
+      delete(hide_timer);
+    },{{hide_show_duration}});
+  } else {
+    hide_timer.add({{hide_show_duration}});
+  }
+});
+  
+
+/* in case I've misunderstood
 function bind_show_button(){
   $("#show_image_btn").on("click",function(){
     $("#trial_image").show();
@@ -56,6 +70,7 @@ function bind_show_button(){
   });
 }
 bind_show_button();
+*/
 
   
   
