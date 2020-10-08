@@ -25669,7 +25669,7 @@
             ]
           ]
         },
-        "public_key": "o1MdjqkGllwCzH2nivg4Rnts94GQSmQRkHZc+7P4fi4=",
+        "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
         "parsed_procs": {
           "procedure_1.csv": [
             {
@@ -38927,9 +38927,14 @@
     }
   },
   "keys": {
-    "archived": [],
-    "public_key": "o1MdjqkGllwCzH2nivg4Rnts94GQSmQRkHZc+7P4fi4=",
-    "encrypted_private_key": "U2FsdGVkX19VFveMpoC6AQnuGl1zgAYqBwV8olyzriMbp5TxHtk9qFuREGg0pCwvXi9t7O7jxNowrbNgf3VX6A=="
+    "archived": [
+      {
+        "public_key": "o1MdjqkGllwCzH2nivg4Rnts94GQSmQRkHZc+7P4fi4=",
+        "encrypted_private_key": "U2FsdGVkX19VFveMpoC6AQnuGl1zgAYqBwV8olyzriMbp5TxHtk9qFuREGg0pCwvXi9t7O7jxNowrbNgf3VX6A=="
+      }
+    ],
+    "public_key": "Gag8f89c30cdKRaw8rhOKGiAdSY4iEVqzyl0kc91LGk=",
+    "encrypted_private_key": "U2FsdGVkX19jLJ4tOtPPugDc9YW4A2+rq8n2Bww5n9s0CdYMZdmRkuN52IpFOiAQhU1ee0TP9FdGQ5vB/n8CrQ=="
   },
   "autoloaded_boosts": {},
   "mods": {
