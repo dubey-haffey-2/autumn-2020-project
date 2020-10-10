@@ -108,35 +108,35 @@
         "A",
         "Apple",
         "../User/Stimuli/cam/blue.jpg",
-        "100",
+        "150",
         ""
       ],
       [
         "B",
         "Banana",
         "../User/Stimuli/cam/green.jpg",
-        "100",
+        "150",
         ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/maroon.jpg",
-        "100",
+        "150",
         ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/orange.jpg",
-        "100",
+        "150",
         ""
       ],
       [
         "",
         "",
         "../User/Stimuli/cam/pink.jpg",
-        "100",
+        "150",
         ""
       ],
       [
@@ -195,7 +195,7 @@
     "procedure_1.csv": "item,trial type,max time,text,Shuffle 1,\r\n0,instruct,user,In the following trials you will need to click a button to show an image,off,\r\n2 to 3,approach,user,This is the start of a new experiment.,off,\r\n0,instruct,user,In the following trials you will need to click the button to hide the image,off,\r\n4 to 6,avoidance,user,,off,\r\n,,,,,"
   },
   "stims_csv": {
-    "stimuli_1.csv": "cue,answer,image,hide_show_duration,\r\nA,Apple,../User/Stimuli/cam/blue.jpg,100,\r\nB,Banana,../User/Stimuli/cam/green.jpg,100,\r\n,,../User/Stimuli/cam/maroon.jpg,100,\r\n,,../User/Stimuli/cam/orange.jpg,100,\r\n,,../User/Stimuli/cam/pink.jpg,100,\r\n,,,,"
+    "stimuli_1.csv": "cue,answer,image,hide_show_duration,\r\nA,Apple,../User/Stimuli/cam/blue.jpg,150,\r\nB,Banana,../User/Stimuli/cam/green.jpg,150,\r\n,,../User/Stimuli/cam/maroon.jpg,150,\r\n,,../User/Stimuli/cam/orange.jpg,150,\r\n,,../User/Stimuli/cam/pink.jpg,150,\r\n,,,,"
   },
   "conditions_csv": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,\r\n,,,,,,,,,,,",
   "conditions": [
