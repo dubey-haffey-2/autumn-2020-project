@@ -112,14 +112,20 @@ function list_studies(){
   try{
     name_list = Object.keys(master_json.exp_mgmt.experiments);
     function update_exp_list(){
+      var series_select_html = "<select id='add_study_series_select'  class='custom-select'><option hidden disabled selected>Select a study</option>";
       var select_html = "<select id='experiment_list'  class='custom-select'><option hidden disabled selected>Select a study</option>";
       name_list.sort(function(a,b){
         return a.toLowerCase().localeCompare(b.toLowerCase());
       });
       name_list.forEach(function(item_name){
+        series_select_html += "<option>" + item_name + "</option>";
         select_html += "<option>" + item_name + "</option>";
       });
+      series_select_html += "</select>";
       select_html += "</select>";
+
+      $("#add_study_series_select_div").html(series_select_html);
+
       $("#experiments").html(select_html);
       $("#experiment_list").on("change",function(){
         if(typeof(first_load) == "undefined" ||
@@ -180,7 +186,7 @@ function new_experiment(experiment){
 	} else {
 
     //create it first in dropbox, THEN update table with location
-		master_json.exp_mgmt.experiments[experiment] = new_experiment_data;
+		master_json.exp_mgmt.experiments[experiment] = default_experiment;
 
 		var this_path = "/Experiments/" + experiment + ".json";
 
@@ -194,7 +200,7 @@ function new_experiment(experiment){
 			$("#save_btn").click();
     }
 		if(dropbox_check()){
-      dbx_obj.new_upload({path:this_path,contents:JSON.stringify(new_experiment_data)},function(result){
+      dbx_obj.new_upload({path:this_path,contents:JSON.stringify(default_experiment)},function(result){
         dbx.sharingCreateSharedLink({path:this_path})
           .then(function(returned_link){
             switch(Collector.detect_context()){

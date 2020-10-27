@@ -1,4 +1,4 @@
-{
+default_experiment = {
   "all_procs":{
     "procedure_1.csv": [["item","trial type","max time","text",                                   "Shuffle 1"],
                         ["2",   "instruct",  "user",    "This is the start of a new experiment.", "off"]]

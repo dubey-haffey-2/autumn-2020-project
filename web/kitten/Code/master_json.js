@@ -1,5 +1,7 @@
-{
-  "mods":    {},
+default_master_json = {
+  "data": {
+    "servers": {}
+  },
   "exp_mgmt":  {
     "any_loaded": 	 		false,
     "authenticated":   	false,
@@ -11,6 +13,12 @@
     "pipe_direction":  	"",
     "versions" :		 		[]
   },
+  "github": {
+    "organisation"  : "",
+    "repository"    : "",
+    "organisations" : {}
+  },
+  "mods":    {},
   "surveys" : {},
   "trialtypes":  {
     "default_trialtypes"	: {},
