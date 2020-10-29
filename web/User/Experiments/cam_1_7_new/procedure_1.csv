@@ -12,8 +12,8 @@ Item,Trial Type,Max Time,Text,Shuffle 1,survey,left_back,right_back,lock_img,blo
 <span style=""font-size:20px""><b>You cannot change your mind about which box you want to open once you've clicked on a lock</span></b><br>",off,,,,,,,,,,,
 2 to 31,cam_uncertainty,,,trial,,../User/Stimuli/cam/pink.jpg,../User/Stimuli/cam/green.jpg,../User/Stimuli/cam/lock1.jpg,../User/Stimuli/cam/lock1_crossed_out.jpg,1000,pink,green,certain,uncertain,
 32 to 61,cam_uncertainty,,,trial,,../User/Stimuli/cam/green.jpg,../User/Stimuli/cam/pink.jpg,../User/Stimuli/cam/lock1.jpg,../User/Stimuli/cam/lock1_crossed_out.jpg,1000,green,pink,uncertain,certain,
-0,survey,,,off,autism_quotient.csv,,,,,,,,,,
-0,survey,,,off,sas_ant.csv,,,,,,,,,,
+0,survey,,,off,scarred_survey,,,,,,,,,,
+0,survey,,,off,intolerance to uncertainty.csv,,,,,,,,,,
 0,instruct,,"<span style=""font-size:40px""><b>Click on ""Proceed"" to save your data. </span></b><br><br> 
 <span style=""font-size:25px""><b>You will receive a debrief of this study in an email.</span></b><br><br>
 <span style=""font-size:25px""><b>You've completed this part of the study! </span></b><br><br>
